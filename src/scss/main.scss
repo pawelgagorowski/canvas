@@ -1,0 +1,16 @@
+$color-font: #333;
+
+$color-secondary-light: #f3e7e9;
+$color-primary-light: #e3eeff;
+
+body {
+  margin: 0;
+  font-family: 'Monteserat', sans-serif;
+  font-size: 16px;
+  color: $color-font;
+}
+
+.header {
+  height: 100vh;
+  background-image: linear-gradient(to top, $color-secondary-light 0%, $color-primary-light 99%, $color-primary-light 100%);
+}
